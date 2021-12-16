@@ -1,0 +1,742 @@
+﻿{
+  "Info": {
+    "DeviceId": 59,
+    "WatchFaceId": 13488
+  },
+  "Background": {
+    "Preview": [
+      {
+        "LangCode": "All",
+        "ImageSet": {
+          "ImageIndex": 2,
+          "ImagesCount": 1
+        }
+      }
+    ],
+    "BackgroundImageIndex": 1
+  },
+  "DialFace": {
+    "DigitalDialFace": {
+      "Digits": [
+        {
+          "TimeType": "Hour",
+          "CombingMode": "Single",
+          "Digit": {
+            "Image": {
+              "X": 216,
+              "Y": 175,
+              "MultilangImage": [
+                {
+                  "LangCode": "All",
+                  "ImageSet": {
+                    "ImageIndex": 3,
+                    "ImagesCount": 10
+                  }
+                }
+              ]
+            },
+            "Alignment": "Center",
+            "Spacing": 9,
+            "PaddingZero": true,
+            "DisplayFormAnalog": false
+          },
+          "Separator": {
+            "Coordinates": {
+              "X": 326,
+              "Y": 173
+            },
+            "ImageIndex": 40
+          }
+        },
+        {
+          "TimeType": "Minute",
+          "CombingMode": "Single",
+          "Digit": {
+            "Image": {
+              "X": 352,
+              "Y": 175,
+              "MultilangImage": [
+                {
+                  "LangCode": "All",
+                  "ImageSet": {
+                    "ImageIndex": 13,
+                    "ImagesCount": 10
+                  }
+                }
+              ]
+            },
+            "Alignment": "Center",
+            "Spacing": 7,
+            "PaddingZero": false,
+            "DisplayFormAnalog": false
+          }
+        },
+        {
+          "TimeType": "Second",
+          "CombingMode": "Single",
+          "Digit": {
+            "SystemFont": {
+              "Coordinates": {
+                "X": 386,
+                "Y": 158
+              },
+              "Angle": 0,
+              "Size": 35,
+              "Color": "0xFFFF8000",
+              "ShowUnitCheck": 0
+            },
+            "Spacing": 2,
+            "PaddingZero": false,
+            "DisplayFormAnalog": false
+          }
+        }
+      ],
+      "AM": {
+        "Coordinates": {
+          "X": 330,
+          "Y": 133
+        },
+        "ImageSet": [
+          {
+            "LangCode": "All",
+            "ImageSet": {
+              "ImageIndex": 99,
+              "ImagesCount": 1
+            }
+          }
+        ]
+      },
+      "PM": {
+        "Coordinates": {
+          "X": 330,
+          "Y": 133
+        },
+        "ImageSet": [
+          {
+            "LangCode": "All",
+            "ImageSet": {
+              "ImageIndex": 100,
+              "ImagesCount": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "System": {
+    "Status": {
+      "Bluetooth": {
+        "Coordinates": {
+          "X": 299,
+          "Y": 393
+        },
+        "ImageIndex": 105
+      },
+      "Alarm": {
+        "Coordinates": {
+          "X": 120,
+          "Y": 393
+        },
+        "ImageIndex": 104
+      }
+    },
+    "Date": {
+      "DateDigits": [
+        {
+          "DateType": "Day",
+          "CombingMode": "Single",
+          "Digit": {
+            "SystemFont": {
+              "Coordinates": {
+                "X": 66,
+                "Y": 242
+              },
+              "Angle": 0,
+              "Size": 43,
+              "Color": "0xFFFFFFFF",
+              "ShowUnitCheck": -1
+            },
+            "Spacing": 2,
+            "PaddingZero": true,
+            "DisplayFormAnalog": false
+          }
+        }
+      ],
+      "WeeksDigits": {
+        "CombingMode": "Single",
+        "Digit": {
+          "Image": {
+            "X": 15,
+            "Y": 170,
+            "MultilangImage": [
+              {
+                "LangCode": "All",
+                "ImageSet": {
+                  "ImageIndex": 33,
+                  "ImagesCount": 7
+                }
+              }
+            ]
+          },
+          "PaddingZero": false,
+          "DisplayFormAnalog": true
+        }
+      }
+    },
+    "Activity": [
+      {
+        "Type": "Battery",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 205,
+                  "Y": 445
+                },
+                "Angle": 0,
+                "Size": 35,
+                "Color": "0xFF00FF00",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Steps",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 288,
+                  "Y": 376
+                },
+                "Angle": 0,
+                "Size": 38,
+                "Color": "0xFFFFFFFF",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 245,
+            "Y": 346
+          },
+          "ImageIndex": 101
+        }
+      },
+      {
+        "Type": "HeartRate",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 101,
+                  "Y": 99
+                },
+                "Angle": 0,
+                "Size": 25,
+                "Color": "0xFFFFFFFF",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 62,
+            "Y": 75
+          },
+          "ImageIndex": 54
+        }
+      },
+      {
+        "Type": "Distance",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 111,
+                  "Y": 376
+                },
+                "Angle": 0,
+                "Size": 35,
+                "Color": "0xFFFFFFFF",
+                "ShowUnitCheck": 1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 66,
+            "Y": 343
+          },
+          "ImageIndex": 41
+        }
+      },
+      {
+        "Type": "Weather",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 204,
+                  "Y": 29
+                },
+                "Angle": 0,
+                "Size": 30,
+                "Color": "0xFFFFFF00",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 341,
+            "Y": 268
+          },
+          "ImageIndex": 56
+        }
+      },
+      {
+        "Type": "Weather",
+        "Digits": [
+          {
+            "Type": "Min",
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 366,
+                  "Y": 322
+                },
+                "Angle": 0,
+                "Size": 30,
+                "Color": "0xFFFFFF00",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Weather",
+        "Digits": [
+          {
+            "Type": "Max",
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 364,
+                  "Y": 286
+                },
+                "Angle": 0,
+                "Size": 30,
+                "Color": "0xFF80FFFF",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Weather",
+        "ImageProgress": {
+          "Coordinates": [
+            {
+              "X": 96,
+              "Y": 43
+            }
+          ],
+          "ImageSet": {
+            "ImageIndex": 68,
+            "ImagesCount": 29
+          }
+        }
+      },
+      {
+        "Type": "Sunrise",
+        "Icon": {
+          "Coordinates": {
+            "X": 20,
+            "Y": 256
+          },
+          "ImageIndex": 57
+        }
+      },
+      {
+        "Type": "Sunrise",
+        "Digits": [
+          {
+            "Type": "Min",
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 63,
+                  "Y": 282
+                },
+                "Angle": 0,
+                "Size": 28,
+                "Color": "0xFFFFFF80",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Sunrise",
+        "Digits": [
+          {
+            "Type": "Max",
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 60,
+                  "Y": 320
+                },
+                "Angle": 0,
+                "Size": 28,
+                "Color": "0xFFFFFF80",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Calories",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 351,
+                  "Y": 101
+                },
+                "Angle": 0,
+                "Size": 26,
+                "Color": "0xFFFFFFFF",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 317,
+            "Y": 76
+          },
+          "ImageIndex": 102
+        }
+      },
+      {
+        "Type": "Humidity",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 139,
+                  "Y": 51
+                },
+                "Angle": 0,
+                "Size": 25,
+                "Color": "0xFFFFFFFF",
+                "ShowUnitCheck": 1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 111,
+            "Y": 30
+          },
+          "ImageIndex": 59
+        }
+      },
+      {
+        "Type": "AirPressure",
+        "Icon": {
+          "Coordinates": {
+            "X": 20,
+            "Y": 294
+          },
+          "ImageIndex": 58
+        }
+      },
+      {
+        "Type": "PAI",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 325,
+                  "Y": 64
+                },
+                "Angle": 0,
+                "Size": 25,
+                "Color": "0xFFFFFFFF",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 304,
+            "Y": 26
+          },
+          "ImageIndex": 106
+        }
+      }
+    ]
+  },
+  "ScreenIdle": {
+    "DialFace": {
+      "DigitalDialFace": {
+        "Digits": [
+          {
+            "TimeType": "Hour",
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 216,
+                "Y": 175,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 3,
+                      "ImagesCount": 10
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Center",
+              "Spacing": 9,
+              "PaddingZero": true,
+              "DisplayFormAnalog": false
+            },
+            "Separator": {
+              "Coordinates": {
+                "X": 326,
+                "Y": 173
+              },
+              "ImageIndex": 40
+            }
+          },
+          {
+            "TimeType": "Minute",
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 352,
+                "Y": 175,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 13,
+                      "ImagesCount": 10
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Center",
+              "Spacing": 7,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "AM": {
+          "Coordinates": {
+            "X": 330,
+            "Y": 133
+          },
+          "ImageSet": [
+            {
+              "LangCode": "All",
+              "ImageSet": {
+                "ImageIndex": 99,
+                "ImagesCount": 1
+              }
+            }
+          ]
+        },
+        "PM": {
+          "Coordinates": {
+            "X": 330,
+            "Y": 133
+          },
+          "ImageSet": [
+            {
+              "LangCode": "All",
+              "ImageSet": {
+                "ImageIndex": 100,
+                "ImagesCount": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Date": {
+      "DateDigits": [
+        {
+          "DateType": "Day",
+          "CombingMode": "Single",
+          "Digit": {
+            "SystemFont": {
+              "Coordinates": {
+                "X": 66,
+                "Y": 242
+              },
+              "Angle": 0,
+              "Size": 43,
+              "Color": "0xFFFFFFFF",
+              "ShowUnitCheck": -1
+            },
+            "Spacing": 2,
+            "PaddingZero": true,
+            "DisplayFormAnalog": false
+          }
+        }
+      ],
+      "WeeksDigits": {
+        "CombingMode": "Single",
+        "Digit": {
+          "Image": {
+            "X": -34,
+            "Y": 170,
+            "MultilangImage": [
+              {
+                "LangCode": "All",
+                "ImageSet": {
+                  "ImageIndex": 33,
+                  "ImagesCount": 7
+                }
+              }
+            ]
+          },
+          "PaddingZero": false,
+          "DisplayFormAnalog": true
+        }
+      }
+    },
+    "Activity": [
+      {
+        "Type": "Battery",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 205,
+                  "Y": 445
+                },
+                "Angle": 0,
+                "Size": 35,
+                "Color": "0xFF00FF00",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Steps",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "SystemFont": {
+                "Coordinates": {
+                  "X": 288,
+                  "Y": 376
+                },
+                "Angle": 0,
+                "Size": 38,
+                "Color": "0xFFFFFFFF",
+                "ShowUnitCheck": -1
+              },
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "Icon": {
+          "Coordinates": {
+            "X": 245,
+            "Y": 346
+          },
+          "ImageIndex": 101
+        }
+      }
+    ]
+  }
+}
